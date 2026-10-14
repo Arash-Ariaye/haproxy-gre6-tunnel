@@ -10,6 +10,9 @@ flowchart LR
     I -->|ip6gre tunnel over IPv6<br/>10.X.Y.1 → 10.X.Y.2| F[Foreign server<br/>Xray, etc.]
 ```
 
+> Only need plain IPv4 → IPv6 forwarding without a tunnel? See [haproxy-ipv6-forwarder](https://github.com/Arash-Ariaye/haproxy-ipv6-forwarder).
+> فقط فوروارد مستقیم IPv4 به IPv6، بدون تانل، می‌خواهید؟ [haproxy-ipv6-forwarder](https://github.com/Arash-Ariaye/haproxy-ipv6-forwarder) را ببینید.
+
 ---
 
 ## English
